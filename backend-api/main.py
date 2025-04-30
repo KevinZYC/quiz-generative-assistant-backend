@@ -13,10 +13,6 @@ from fastapi import UploadFile, File, Form
 import shutil
 import os
 
-'''
-todo:
-add 1 hour timeout to delete sessions
-'''
 
 SESSION_TIMEOUT = 180
 
